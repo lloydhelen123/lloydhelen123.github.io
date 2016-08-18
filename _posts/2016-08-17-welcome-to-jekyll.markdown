@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "This website is still being developed. Please visit [ISSUU][https://issuu.com/lloydhelen/docs/2016_portfolio_single_page] to view my portfolio - thank you!"
 date:   2016-08-17 08:12:45 -0400
 categories: jekyll update
 ---
