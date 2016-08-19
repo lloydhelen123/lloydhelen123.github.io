@@ -52,7 +52,7 @@ height: 100%;
 }
 
 .issuuembed.issuu-isrendered {
-width: 100%!important;
+width: 100%!important; height: 100%;
 }
 
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}
