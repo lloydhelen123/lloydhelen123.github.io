@@ -4312,6 +4312,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
 }
 
+.navbar-brand > .active > a {
+  /*color: #da9e0b;*/
+  border-bottom-color: #f3b314;
+}
+.navbar-brand > .active > a:hover,
+.navbar-brand > .active > a:focus {
+  color: #5f5f25;
+  border-bottom-color: #5f5f25;
+}
 
 
 
