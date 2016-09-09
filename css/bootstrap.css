@@ -4293,33 +4293,26 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 */
 
 
-
-
-.navbar-brand > li {
-  display: inline-block;
-}
-.navbar-brand > li + li {
-  margin-left: 20px;
-}
-.navbar-brand > li > a {
+.navbar-brand {
+  padding-top: 19px;
+  padding-bottom: 30px;
   padding-right: 0;
   padding-left: 0;
-  padding-top: 19px;
-  padding-bottom: 19px;
   font-size: 16px;
   font-weight: bold;
   color: #111; /* IE8 proofing */
   color: rgba(5,5,5,.75);
   border-bottom: 3px solid transparent;
 }
-
-.navbar-brand > li > a:hover,
-.navbar-brand > li > a:focus {
-  background-color: transparent;
+.navbar-brand:hover,
+.navbar-brand:focus {
+ background-color: transparent;
   border-bottom-color: #111;
   border-bottom-color: rgba(5,5,5,.75);
 }
-
+.navbar-brand > img {
+  display: block;
+}
 .navbar-brand > .active > a {
   /*color: #da9e0b;*/
   border-bottom-color: #f3b314;
@@ -4329,9 +4322,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
-
-
-
 
 
 @media (min-width: 768px) {
