@@ -12,13 +12,6 @@
  * Header
  */
  
-.masthead-brand {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-.masthead-brand a {
-  padding-bottom: 19px;
-}
 
 .masthead-nav > li {
   display: inline-block;
@@ -52,20 +45,6 @@
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
-
-//
-.nav.navbar.navbar-brand.masthead-brand > .active > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.navbar.masthead-brand > .active > a:hover,
-.navbar.masthead-brand > .active > a:focus {
-  background-color: transparent;
-  border-bottom-color: #111;
-  border-bottom-color: rgba(5,5,5,.75);
-}
-
-//
 
 @media (min-width: 768px) {
   .masthead-brand {
