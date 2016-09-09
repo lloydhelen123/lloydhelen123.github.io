@@ -53,15 +53,6 @@
 
 ///
 
-.masthead-brand > .active > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.masthead-brand > .active > a:hover,
-.masthead-brand > .active > a:focus {
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
-}
 
 ///
 
