@@ -54,7 +54,7 @@
 }
 
 //
-.navbar-default .navbar-brand > .active > a {
+.navbar-default .masthead-brand > .active > a {
   /*color: #da9e0b;*/
   border-bottom-color: #f3b314;
 }
