@@ -11,22 +11,24 @@
 /*
  * Header
  */
-.masthead-brand {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-.masthead-brand a {
-  padding-bottom: 19px;
-}
 
-.masthead-brand a {
+----
+
+.masthead-brand > li {
+  display: inline-block;
+}
+.masthead-brand > li + li {
+  margin-left: 20px;
+}
+.masthead-brand > li > a {
+  padding-right: 0;
+  padding-left: 0;
   font-size: 16px;
   font-weight: bold;
   color: #111; /* IE8 proofing */
   color: rgba(5,5,5,.75);
   border-bottom: 3px solid transparent;
 }
-
 .masthead-brand > li > a:hover,
 .masthead-brand > li > a:focus {
   background-color: transparent;
@@ -42,6 +44,9 @@
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
+
+
+----
 
 .masthead-nav > li {
   display: inline-block;
@@ -73,22 +78,6 @@
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
-
-
-
-.masthead-nav > .active-brand > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.masthead-nav > .active-brand > a:hover,
-.masthead-nav > .active-brand > a:focus {
-  float: left;
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
-}
-
-
-
 
 
 @media (min-width: 768px) {
