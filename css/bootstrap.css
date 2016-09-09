@@ -4271,6 +4271,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
+
+
+
+
+/*
 .navbar-brand {
   float: left;
   height: 50px;
@@ -4285,6 +4290,33 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > img {
   display: block;
 }
+*/
+
+
+.navbar-brand {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111; /* IE8 proofing */
+  color: rgba(5,5,5,.75);
+  border-bottom: 3px solid transparent;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+ background-color: transparent;
+  border-bottom-color: #111;
+  border-bottom-color: rgba(5,5,5,.75);
+}
+.navbar-brand > img {
+  display: block;
+}
+
+
+
+
+
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
