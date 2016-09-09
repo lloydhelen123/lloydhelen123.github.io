@@ -12,18 +12,6 @@
  * Header
  */
  
-h4 {
-    display: block;
-    -webkit-margin-before: 1.33em;
-    -webkit-margin-after: 1.33em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-}
-Inherited from body
-
- 
- 
 .masthead-brand {
   margin-top: 5px;
   margin-bottom: 20px;
