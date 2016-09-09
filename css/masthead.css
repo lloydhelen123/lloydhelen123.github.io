@@ -79,22 +79,14 @@
   border-bottom-color: #5f5f25;
 }
 
----
-
-.masthead-nav > .active-brand > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-  float: left;
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
 }
-.masthead-nav > .active-brand > a:hover,
-.masthead-nav > .active-brand > a:focus {
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
-  float: left;
-}
-
----
-
 
 #foot {
   /*color: #fff;*/
