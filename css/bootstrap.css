@@ -4295,7 +4295,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   padding-top: 19px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
@@ -4312,15 +4312,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
-}
-.navbar-brand > .active > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.navbar-brand > .active > a:hover,
-.navbar-brand > .active > a:focus {
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
 }
 
 
