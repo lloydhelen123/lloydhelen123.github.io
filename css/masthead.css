@@ -24,7 +24,7 @@
   font-weight: bold;
   color: #111; /* IE8 proofing */
   color: rgba(5,5,5,.75);
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid transparent width:100%;
 }
 
 .masthead-brand > li > a:hover,
@@ -43,9 +43,6 @@
   border-bottom-color: #5f5f25;
 }
 
-
-
-
 .masthead-nav > li {
   display: inline-block;
 }
@@ -59,7 +56,7 @@
   font-weight: bold;
   color: #111; /* IE8 proofing */
   color: rgba(5,5,5,.75);
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid transparent width:100%;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
