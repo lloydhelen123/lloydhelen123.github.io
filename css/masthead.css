@@ -54,7 +54,10 @@
 }
 
 //
-
+masthead-brand > .active > a {
+  /*color: #da9e0b;*/
+  border-bottom-color: #f3b314;
+}
 .masthead-brand > .active > a:hover,
 .masthead-brand > .active > a:focus {
   background-color: transparent;
