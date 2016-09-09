@@ -41,15 +41,7 @@
   border-bottom-color: #111;
   border-bottom-color: rgba(5,5,5,.75);
 }
-.masthead-nav > .active > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
-}
+
 
 //
 
@@ -63,8 +55,8 @@
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
-//
 
+//
 
 @media (min-width: 768px) {
   .masthead-brand {
