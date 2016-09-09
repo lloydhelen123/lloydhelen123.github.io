@@ -4292,48 +4292,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 */
 
-/*
-.navbar-brand {
-  padding-top: 19px;
-  padding-bottom
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #111; /* IE8 proofing */
-  color: rgba(5,5,5,.75);
-  border-bottom: 3px solid transparent;
-}
-.navbar-brand:hover,
-.navbar-brand:focus {
- background-color: transparent;
-  border-bottom-color: #111;
-  border-bottom-color: rgba(5,5,5,.75);
-}
-.navbar-brand > img {
-  display: block;
-}
 
-.navbar-brand > .active > a {
-  /*color: #da9e0b;*/
-  border-bottom-color: #f3b314;
-}
-.navbar-brand > .active > a:hover,
-.navbar-brand > .active > a:focus {
-  color: #5f5f25;
-  border-bottom-color: #5f5f25;
-}
-*/
 
-//
 
-.masthead-brand > li {
+.navbar-brand > li {
   display: inline-block;
 }
-.masthead-brand > li + li {
+.navbar-brand > li + li {
   margin-left: 20px;
 }
-.masthead-brand > li > a {
+.navbar-brand > li > a {
   padding-right: 0;
   padding-left: 0;
   padding-top: 19px;
@@ -4345,24 +4313,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 3px solid transparent;
 }
 
-.masthead-brand > li > a:hover,
-.masthead-brand > li > a:focus {
+.navbar-brand > li > a:hover,
+.navbar-brand > li > a:focus {
   background-color: transparent;
   border-bottom-color: #111;
   border-bottom-color: rgba(5,5,5,.75);
 }
 
-.masthead-brand > .active > a {
+.navbar-brand > .active > a {
   /*color: #da9e0b;*/
   border-bottom-color: #f3b314;
 }
-.masthead-brand > .active > a:hover,
-.masthead-brand > .active > a:focus {
+.navbar-brand > .active > a:hover,
+.navbar-brand > .active > a:focus {
   color: #5f5f25;
   border-bottom-color: #5f5f25;
 }
 
-//
 
 
 
