@@ -57,6 +57,11 @@
 	font-size: 60%;
 }
 
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
 #portfolio .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
