@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Site"
-AuthUserFile https://github.com/lloydhelen123/archive/.gitignore/.htpasswd
-require valid-user
